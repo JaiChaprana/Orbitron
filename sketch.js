@@ -8,6 +8,8 @@ var CREDITS = 5;
 var gameState = WEL;
 var score, scoreImage;
 var tScore = 0;
+var loading = false;
+var loadImg, load;
 
  
 var spaceShip, IMG;
@@ -74,6 +76,7 @@ welcomeS = loadSound("welcomeS.wav");
 selectS = loadSound("selectS.wav");
 gunshot = loadSound("gun shot.mp3");
 creditImg = loadImage("credits.png");
+ //loadImg = loadImage("")
 }
 
 
